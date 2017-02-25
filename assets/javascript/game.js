@@ -19,12 +19,12 @@ $('#losses').text(losses);
 
 function reset(){
       number=Math.floor((Math.random()*120) +19);
-      // console.log(number)
+      
       $('.randomnumber').text(number);
-      mercedes = Math.floor(Math.random()*11+1);
-      porsche = Math.floor(Math.random()*11+1);
-      bmw = Math.floor(Math.random()*11+1);
-      test = Math.floor(Math.random()*11+1);
+      mercedes = Math.floor(Math.random()*12+1);
+      porsche = Math.floor(Math.random()*12+1);
+      bmw = Math.floor(Math.random()*12+1);
+      test = Math.floor(Math.random()*12+1);
       userTotal= 0;
       $('.guessnumber').text(userTotal);
       } 
